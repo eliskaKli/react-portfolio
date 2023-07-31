@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "projectName": "Jamming React app",
+    "rating": 5,
+    "tags": ["CSS", "React", "Figma"],                                                                          
+    "date": {
+        "year": 2023,
+        "month": 6
+    },
+    "description": "Webová aplikace vytvořená ve spolupráci s Codecademy kurzem. Soubor API v jejich režii.",
+    "projectType": "Codecademy",
+    "img": "/img/jamming-mockup-bg.png", 
+    "src": ,
+  },
+  {
+    "id": 2,
+    "projectName": "Find the Hat",
+    "rating": 4,
+    "tags": "JavaScript",                                                                          
+    "date": {
+        "year": 2023,
+        "month": 7 
+    },
+    "description": "Tato drobná hra se ovládá v příkazovém řádku. Pohybuje se po zvoleném poli a hledá klobouk.",
+    "projectType": "Codecademy",
+    "img": "/img/findHat-mockup-bg.png",
+    "src": "https://github.com/eliskaKli/findHatGame.git"
+  },
+  {
+    "id": 3,
+    "projectName": "Personal Portfolio" ,
+    "rating": 4,
+    "tags": ["HTML", "CSS", "Figma"],                                                                          
+    "date": {
+      "year": 2023,
+      "month": 5 
+    },
+    "description": "První verze mého portfolia, která skončila v šuplíku.",
+    "projectType": "Codecademy",
+    "img": "/img/mojePortfolio-mockup-bg.png",
+    "src": "https://eliskakli.github.io/MyFirstPortfolio/"
+  },
+  {
+    "id": 4,
+    "projectName": "La Boema Landing Page",
+    "rating": 3,
+    "tags": ["HTML", "CSS", "Figma"],                                                                          
+    "date": {
+      "year": 2023,
+      "month": 2 
+    },
+    "description": "Landing page nového sekáče vytvořená na základě vlastního návrhu ve Figmě, s autorskými fotkami.",
+    "projectType": "Codecademy",
+    "img": "img/laBoema-mockup-bg.png",
+    "src": "https://eliskakli.github.io/laBoema/"
+  },
+  {
+    "id": 5,
+    "projectName": "Guess Number",
+    "rating": 3,
+    "tags": ["HTML", "CSS", "JavaScript"],                                                                          
+    "date": {
+      "year": 2022,
+      "month": 10
+    },
+    "description": "Úvodní kurz ReactGirls soustředěný na základy zmíněných jazyků s výstupem v podobě této hry.",
+    "projectType": "ReactGirls",
+    "img": "/img/gameNumber-mockup.png",
+    "src": "https://eliskakli.github.io/GuessNumber/"
+  },
+  {
+    "id": 6,
+    "projectName": "Tea Cozy Positioning",
+    "rating": 2,
+    "tags": ["HTML", "CSS"],                                                                          
+    "date": {
+      "year": 2023,
+      "month": 2
+    },
+    "description": "Vytvoření jednoduchého webové stránky podle zadaného designu.",
+    "projectType": "Codecademy",
+    "img": ,
+    "src": ,
+  },
+  {
+    "id": 7,
+    "projectName": "CheatSheet HTML/CSS",
+    "rating": 2,
+    "tags": ["HTML", "CSS"],
+    "date": {
+      "year": 2023,
+      "month": 2
+    },
+    "description": "Cvičení v rámci Codecademy kurzu pro procvičení HTML a CSS kódování.",
+    "projectType": "Codecademy",
+    "img": ,
+    "src": ,
+  },
+]
