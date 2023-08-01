@@ -1,0 +1,20 @@
+.portfolioButton {
+  display: inline-flex;
+  padding: 1.25rem 1.875rem;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  border-radius: 61.875rem;
+}
+
+.portfolioButton:hover {
+  border: 0.5px solid #000;
+}
+
+@media only screen and (max-width: 768px) {
+  .portfolioButton {
+    padding: 0.875rem 1rem;
+    font-size: 0.875rem;
+    margin: auto;
+  }
+}
