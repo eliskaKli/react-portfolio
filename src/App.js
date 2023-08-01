@@ -1,28 +1,19 @@
+import { Route, Routes } from "react-router-dom";
+
 import styles from "./App.module.css";
 
-import Profile from "./components/Profile/Profile.js";
-import ProjectPage from "./components/ProjectsPage/ProjectsPage";
+import Profile from "./pages/Profile/Profile.js";
+import ProjectsPage from "./pages/ProjectsPage/ProjectsPage.js";
 
-import {
-  createBrowserRouter,
-  RouterProvider,
-  createRoutesFromElements,
-  Route,
-} from "react-router-dom";
-
-const appRouter = createBrowserRouter(
-  createRoutesFromElements(
-    <Route path="/" element={<Profile />}>
-      <Route path="projects" element={<ProjectPage />} />
-    </Route>
-  )
-);
 
 function App() {
   return (
     <div className={styles.app}>
+      <Routes>
+        <Route path="/" element={<Profile />} />
+        <Route path="/projects" element={<ProjectsPage />} />
+      </Routes> 
       {/* <Profile /> */}
-      <RouterProvider router={appRouter} />
     </div>
   );
 }

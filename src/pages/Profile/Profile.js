@@ -1,8 +1,8 @@
 import profileImg from "../../data/img/profileImg.jpg";
 
-import ButtonContact from "../ButtonContact/ButtonContact.js";
-import ButtonPortfolio from "../ButtonPortfolio/ButtonPortfolio.js";
-import ExternalLogos from "../ExternalLogos/ExternalLogos.js";
+import ButtonContact from "../../components/ButtonContact/ButtonContact.js";
+import ButtonPortfolio from "../../components/ButtonPortfolio/ButtonPortfolio.js";
+import ExternalLogos from "../../components/ExternalLogos/ExternalLogos.js";
 
 import styles from "./Profile.module.css";
 

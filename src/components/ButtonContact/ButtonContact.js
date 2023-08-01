@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 function ButtonContact() {
   return (
-    <div className={styles.contactButton}>
+    <button className={styles.contactButton}>
       <a
         className={styles.link}
         href="https://www.linkedin.com/in/eli%C5%A1ka-klimtov%C3%A1-5201961a4/"
@@ -15,7 +15,7 @@ function ButtonContact() {
         kontaktujte mě na LinkedIn
         < FaLinkedin className={styles.logoLinkedIn} />
       </a>
-    </div>
+    </button>
   );
 }
 

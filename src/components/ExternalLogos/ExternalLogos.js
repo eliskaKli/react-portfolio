@@ -10,7 +10,7 @@ function ExternalLogos() {
     <div className={styles.logosGroup}>
       <a
         className={styles.logo}
-        href="/https://github.com/eliskaKli"
+        href="https://github.com/eliskaKli"
         target="_blank"
         rel="noopener noreferrer"
       >
