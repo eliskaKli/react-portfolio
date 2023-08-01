@@ -1,11 +1,28 @@
-import styles from './App.module.css';
+import styles from "./App.module.css";
 
-import Profile from './components/Profile/Profile.js';
+import Profile from "./components/Profile/Profile.js";
+import ProjectPage from "./components/ProjectsPage/ProjectsPage";
+
+import {
+  createBrowserRouter,
+  RouterProvider,
+  createRoutesFromElements,
+  Route,
+} from "react-router-dom";
+
+const appRouter = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<Profile />}>
+      <Route path="projects" element={<ProjectPage />} />
+    </Route>
+  )
+);
 
 function App() {
-  return(
+  return (
     <div className={styles.app}>
-      <Profile />
+      {/* <Profile /> */}
+      <RouterProvider router={appRouter} />
     </div>
   );
 }

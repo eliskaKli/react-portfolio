@@ -5,6 +5,8 @@
   align-items: center;
   border: 1px solid #000;
   border-radius: 61.875rem;
+  text-decoration: none;
+  color: #000;
 }
 
 .portfolioButton:hover {

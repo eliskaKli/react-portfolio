@@ -1,6 +1,6 @@
 import React from "react";
 
-import data from '../data/projects.json';
+import data from '../../data/projects.json';
 
 function Project( {project} ) {
     function tag() {
