@@ -4,6 +4,7 @@
   justify-content: center;
   background-color: #fff;
   border-radius: 61.875rem;
+  border: none;
 }
 
 .contactButton:hover {
@@ -16,7 +17,7 @@
   align-items: center;
   gap: 0.625rem;
   color: #000;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 1rem;
   font-weight: 400;
   text-decoration: none;

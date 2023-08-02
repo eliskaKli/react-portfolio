@@ -13,7 +13,6 @@ function App() {
         <Route path="/" element={<Profile />} />
         <Route path="/projects" element={<ProjectsPage />} />
       </Routes> 
-      {/* <Profile /> */}
     </div>
   );
 }

@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 2.44rem auto 1.5rem;
+  width: 100%;
+  background-color: #dfdb0c;
+  /* overflow: scroll;
+    position: sticky;
+    z-index: 3; */
+}
+
+.footer a {
+  color: #000;
+  margin: 5.94rem auto 11rem;
+}
