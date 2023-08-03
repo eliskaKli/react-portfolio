@@ -1,17 +1,24 @@
-import React from "react";
-import styles from './ProjectsList.module.css';
-import projects from '../../data/projects.json';
+import React, { useEffect } from "react";
+import styles from "./ProjectsList.module.css";
+import projects from "../../data/projects.json";
 
 import { FiExternalLink } from "react-icons/fi";
 
 function ProjectsList() {
-    
+  console.log(projects);
+
   return (
-    <div className={styles.tagsContainer}>
-    <div className={styles.tagsList}>
+    <div className={styles.projectsContainer}>
+      {/* <div className={styles.tagsList}> */}
       {projects.map((item) => (
-        <div>
-          <img src={item.img} alt={item.projectName} />
+        <div className={styles.projectsList}>
+          <img
+            className={styles.projectImg}
+            // src={require(`../../data${item.img}`).default} 
+            src={process.env.PUBLIC_URL + item.img}
+            alt={item.projectName}
+          />
+          <div className={styles.textContainer}>
           <a
             className={styles.h2}
             href={item.src}
@@ -21,7 +28,7 @@ function ProjectsList() {
             {item.projectName}
             <FiExternalLink />
           </a>
-          <p>{item.description}</p>
+          <p >{item.description}</p>
           <a
             className={styles.figmaLink}
             href={item.figma}
@@ -30,13 +37,18 @@ function ProjectsList() {
           >
             Zobrazit Figmu
           </a>
-          <ul>
-            <li key={item.id}>{item.tags}</li>
+          <ul className={styles.tagsContainer}>
+            {Array.isArray(item.tags) &&
+              item.tags.map((tag, i) => (
+                <li key={item.id} className={styles.tag}>
+                  {tag}
+                </li>
+              ))}
           </ul>
+        </div>
         </div>
       ))}
     </div>
-  </div>
   );
 }
 

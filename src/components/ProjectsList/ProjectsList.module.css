@@ -1,0 +1,67 @@
+.projectsContainer {
+  display: flex;
+  max-width: 65%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: left;
+  row-gap: 2.3125rem;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  
+}
+
+.projectsList {
+  padding-left: 0;
+  width: 23.4375rem;
+  height: 23.75rem; 
+}
+
+.projectImg {
+  width: 23.4375rem;
+  height: 13.75rem;
+  display: flex;
+  flex-shrink: 0;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+p {
+    margin: auto;
+}
+
+.h2 {
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  gap: 0.25rem;
+  padding-top: 1rem;
+}
+
+.figmaLink {
+  color: #000;
+  font-size: 1rem;
+}
+
+.tagsContainer {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.625rem;
+  padding-top: 0.94rem;
+  padding-left: 0;
+}
+
+.tag {
+  padding: 0.375rem 1rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3.125rem;
+  border: 1px solid #000;
+}

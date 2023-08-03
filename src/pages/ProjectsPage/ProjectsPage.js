@@ -10,7 +10,7 @@ function ProjectsPage() {
     <div>
       <header className={styles.header}>
         <p>Eliška Klimtová</p>
-        <ButtonContact />
+        <ButtonContact className={styles.button} />
       </header>
       <ProjectsList />
       <footer className={styles.footer}>

@@ -1,15 +1,27 @@
 .header {
-  display: flex;
+  display: inline-flex;
   justify-content: space-around;
-  padding: 2.44rem auto 1.5rem;
+  align-items: center;
+  /* padding: 2.44rem auto 1.5rem; */
+  /* margin-inline: ; */
   width: 100%;
+  height: 7.25rem;
   background-color: #dfdb0c;
-  /* overflow: scroll;
-    position: sticky;
-    z-index: 3; */
+  /* overflow: scroll; */
+  /* position: sticky; */
+  /* z-index: 3; */
 }
+
+.header p {
+  margin: 0;
+}
+
+footer {
+  margin: 5.94rem auto 8rem;
+  line-height: 2rem;
+} 
 
 .footer a {
   color: #000;
-  margin: 5.94rem auto 11rem;
+  
 }

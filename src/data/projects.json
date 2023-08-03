@@ -10,7 +10,7 @@
     },
     "description": "Webová aplikace vytvořená ve spolupráci s Codecademy kurzem. Soubor API v jejich režii.",
     "projectType": "Codecademy",
-    "img": "./img/jamming-mockup-bg.png", 
+    "img": "/img/jamming-mockup-bg.png", 
     "src": "https://eliskakli.github.io/Jamming-ReactApp/",
     "figma": "https://www.figma.com/file/5X2TgHkgTBlYykE6zvYMCw/Jamming-React-app?type=design&node-id=0%3A1&mode=design&t=NQeT6I8HxeN59SGn-1"
   },
@@ -40,7 +40,7 @@
     },
     "description": "První verze mého portfolia, která skončila v šuplíku.",
     "projectType": "Codecademy",
-    "img": "/img/mojePortfolio-mockup-bg.png",
+    "img": "/img/mojePortfolio-mockup.png", 
     "src": "https://eliskakli.github.io/MyFirstPortfolio/",
     "figma": "https://www.figma.com/file/g8W3Fpk5JUG9RrmSYtFcJQ/Portfolio-Web?type=design&node-id=1%3A2&mode=design&t=gL65cFELjGcyXeAO-1"
   },
@@ -55,7 +55,7 @@
     },
     "description": "Landing page nového sekáče vytvořená na základě vlastního návrhu ve Figmě, s autorskými fotkami.",
     "projectType": "Codecademy",
-    "img": "img/laBoema-mockup-bg.png",
+    "img": "/img/laBoema-mockup-bg.png",
     "src": "https://eliskakli.github.io/laBoema/",
     "figma": "https://www.figma.com/file/Pa0XVbCZJuUVYeRZs6y7IN/La-Boema-web?type=design&node-id=1%3A2&mode=design&t=09Qx4UM5D1EJaBwm-1"
   },
