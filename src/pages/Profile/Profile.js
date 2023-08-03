@@ -1,4 +1,4 @@
-import profileImg from "../../data/img/profileImg.jpg";
+import profileImg from "./profileImg.jpg";
 
 import ButtonContact from "../../components/ButtonContact/ButtonContact.js";
 import ButtonPortfolio from "../../components/ButtonPortfolio/ButtonPortfolio.js";
