@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 import styles from "./ProjectsPage.module.css";
 import ButtonContact from "../../components/ButtonContact/ButtonContact.js";
@@ -6,10 +7,15 @@ import ProjectsList from "../../components/ProjectsList/ProjectsList.js";
 
 
 function ProjectsPage() {
+  const navigate= useNavigate();
+  const toProfilePage = () =>{
+    navigate("/")
+  };
+
   return (
     <div>
       <header className={styles.header}>
-        <p>Eliška Klimtová</p>
+        <p onClick={toProfilePage}>Eliška Klimtová</p>
         <ButtonContact className={styles.button} />
       </header>
       <ProjectsList />
