@@ -16,6 +16,17 @@
   margin: 0;
 }
 
+.header p:hover {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.projectsList {
+  /* display: flex;
+  justify-content: center; */
+  /* margin: auto; */
+}
+
 footer {
   margin: 5.94rem auto 8rem;
   line-height: 2rem;

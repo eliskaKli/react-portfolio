@@ -3,12 +3,12 @@
     "id": 1,
     "projectName": "Jamming React app",
     "rating": 5,
-    "tags": ["CSS", "React", "Figma"],                                                                          
+    "tags": ["CSS", "React"],                                                                          
     "date": {
         "year": 2023,
         "month": 6
     },
-    "description": "Webová aplikace vytvořená ve spolupráci s Codecademy kurzem. Soubor API v jejich režii.",
+    "description": "Web vytvořený spolu s Codecademy kurzem. Zapojila jsem se hlavně při vytváření komponent a stylování.",
     "projectType": "Codecademy",
     "img": "/img/jamming-mockup-bg.png", 
     "src": "https://eliskakli.github.io/Jamming-ReactApp/",
@@ -16,14 +16,14 @@
   },
   {
     "id": 2,
-    "projectName": "Find the Hat",
+    "projectName": "Game: Find the Hat",
     "rating": 4,
-    "tags": "JavaScript",                                                                          
+    "tags": ["JavaScript"],                                                                          
     "date": {
         "year": 2023,
         "month": 7 
     },
-    "description": "Tato drobná hra se ovládá v příkazovém řádku. Pohybuje se po zvoleném poli a hledá klobouk.",
+    "description": "Pohybuj se v poli, vyhni se dírám a najdi ztracený klobouk.",
     "projectType": "Codecademy",
     "img": "/img/findHat-mockup-bg.png",
     "src": "https://github.com/eliskaKli/findHatGame.git",
@@ -38,7 +38,7 @@
       "year": 2023,
       "month": 5 
     },
-    "description": "První verze mého portfolia, která skončila v šuplíku.",
+    "description": "První vlastní nepublikované portfolio.",
     "projectType": "Codecademy",
     "img": "/img/mojePortfolio-mockup.png", 
     "src": "https://eliskakli.github.io/MyFirstPortfolio/",
@@ -53,7 +53,7 @@
       "year": 2023,
       "month": 2 
     },
-    "description": "Landing page nového sekáče vytvořená na základě vlastního návrhu ve Figmě, s autorskými fotkami.",
+    "description": "Landing page nového sekáče vytvořená na základě vlastního návrhu ve Figmě, se zapojením autorských fotek.",
     "projectType": "Codecademy",
     "img": "/img/laBoema-mockup-bg.png",
     "src": "https://eliskakli.github.io/laBoema/",
@@ -68,7 +68,7 @@
       "year": 2022,
       "month": 10
     },
-    "description": "Úvodní kurz ReactGirls soustředěný na základy zmíněných jazyků s výstupem v podobě této hry.",
+    "description": "Hru jsme vytvořili jako výstup z úvodního kurzu ReactGirls soustředěného na základy jazyků (viz níže).",
     "projectType": "ReactGirls",
     "img": "/img/gameNumber-mockup.png",
     "src": "https://eliskakli.github.io/GuessNumber/",
@@ -76,32 +76,18 @@
   },
   {
     "id": 6,
-    "projectName": "Tea Cozy Positioning",
-    "rating": 2,
-    "tags": ["HTML", "CSS"],                                                                          
+    "projectName": "Tento portfolio web",
+    "rating": 5,
+    "tags": ["CSS", "React"],                                                                          
     "date": {
       "year": 2023,
-      "month": 2
+      "month": 8
     },
-    "description": "Vytvoření jednoduchého webové stránky podle zadaného designu.",
-    "projectType": "Codecademy",
-    "img": "",
-    "src": "",
-    "figma": "" 
-  },
-  {
-    "id": 7,
-    "projectName": "CheatSheet HTML/CSS",
-    "rating": 2,
-    "tags": ["HTML", "CSS"],
-    "date": {
-      "year": 2023,
-      "month": 2
-    },
-    "description": "Cvičení v rámci Codecademy kurzu pro procvičení HTML a CSS kódování.",
-    "projectType": "Codecademy",
-    "img": "",
-    "src": "",
-    "figma": "" 
+    "description": "Přehled mých dosavadních větších projektů, které jsem vytvořila během mého učení se kódovat a programovat.",
+    "projectType": "Osobní",
+    "img": "/img/thisPortfolio-mockup-bg.png",
+    "src": "https://github.com/eliskaKli/react-portfolio",
+    "figma": "https://www.figma.com/file/r6PaxMek9So0hMPe3qp2UT/Portfolio-in-React?type=design&node-id=23%3A191&mode=dev" 
+  
   }
 ]
