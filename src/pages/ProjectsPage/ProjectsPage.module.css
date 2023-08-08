@@ -2,18 +2,16 @@
   display: inline-flex;
   justify-content: space-around;
   align-items: center;
-  /* padding: 2.44rem auto 1.5rem; */
-  /* margin-inline: ; */
   width: 100%;
   height: 7.25rem;
   background-color: #dfdb0c;
-  /* overflow: scroll; */
-  /* position: sticky; */
-  /* z-index: 3; */
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
-.header p {
-  margin: 0;
+.headerScroll {
+  border-bottom: solid 0.5px hsla(0, 0%, 0%, 0.4) ;
 }
 
 .header p:hover {
@@ -21,18 +19,35 @@
   cursor: pointer;
 }
 
-.projectsList {
-  /* display: flex;
-  justify-content: center; */
-  /* margin: auto; */
+.blankBar {
+  margin-top: 7.25rem;
 }
 
 footer {
   margin: 5.94rem auto 8rem;
   line-height: 2rem;
-} 
+}
 
 .footer a {
   color: #000;
-  
+}
+
+@media only screen and (max-width: 1024px) {
+  .header {
+    height: 6rem;
+  }
+
+  .blankBar {
+    margin-top: 6rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    height: 4rem;
+  }
+
+  .blankBar {
+    margin-top: 4rem;
+  }
 }

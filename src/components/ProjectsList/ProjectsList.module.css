@@ -4,7 +4,6 @@
   justify-content: center;
   margin: 0 auto;
   max-width: 70%;
-  /* min-width: 50%; */
   row-gap: 2rem;
   column-gap: 2rem;
 }
@@ -22,7 +21,6 @@
 .projectImg {
   width: 23.4375rem;
   height: 13.75rem;
-  /* margin: 0; */
 }
 
 .textContainer {
@@ -55,19 +53,14 @@ p {
 .figmaLink {
   color: #000;
   font-size: 1rem;
-
 }
 
 .tagsContainer {
   display: flex;
   flex-flow: row wrap;
-  /* justify-content: flex-start; */
-  /* align-items: flex-start; */
-  /* align-content: flex-start; */
   gap: 0.625rem;
   padding: 0;
   margin: auto auto 0 0;
-  
 }
 
 .tag {
@@ -82,71 +75,31 @@ p {
   gap: 0.625rem;
 }
 
-/* 
-
-.projectsContainer {
-  display: inline-flex;
-  max-width: 65%;
-  flex-flow: row wrap;
-  justify-content: space-between;
-
-  text-align: left;
-  row-gap: 2.3125rem;
-  margin: 0 auto;
+@media only screen and (max-width: 1120px) {
+  .projectsContainer {
+    max-width: 80%;
+  }
 }
 
-.projectsList {
-  width: 23.4375rem;
-  height: 23.75rem;
-  display: inline-flex;
-  flex-flow: column wrap;
-
+@media only screen and (max-width: 1024px) {
+  .projectsContainer {
+    max-width: 95%;
+  }
 }
 
-.projectImg {
-  width: 23.4375rem;
-  height: 13.75rem;
-  display: flex;
-  flex-shrink: 0;
+@media only screen and (max-width: 768px) {
+  .projectsContainer {
+    max-width: 95%;
+    row-gap: auto;
+  }
 }
 
-.textContainer {
-  margin: auto;
+@media only screen and (max-width: 480px) {
+  .projectsContainer {
+    max-width: 97%;
+  }
+
+  .projectImg {
+    width: 20.875rem;
+  }
 }
-
-p {
-  margin: auto;
-}
-
-.h2 {
-  color: #000;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-decoration: none;
-  display: flex;
-  gap: 0.25rem;
-  padding-top: 1rem;
-}
-
-.figmaLink {
-  color: #000;
-  font-size: 1rem;
-}
-
-
-.tagsContainer {
-  list-style-type: none;
-  display: flex;
-  justify-content: flex-start;
-  gap: 0.625rem;
-  padding-left: 0;
-  margin: auto 0 0;
-}
-
-.tag {
-  padding: 0.375rem 1rem;
-  justify-content: center;
-  align-items: center;
-  border-radius: 3.125rem;
-  border: 1px solid #000;
-} */

@@ -33,7 +33,7 @@
 @media only screen and (max-width: 768px) {
   .contactButton {
     padding: 0.875rem 1rem;
-    margin: auto;
+    /* margin: auto; */
   }
 
   .link {
