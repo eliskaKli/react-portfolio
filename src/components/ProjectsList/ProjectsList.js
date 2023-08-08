@@ -34,7 +34,7 @@ function ProjectsList() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {item.figma ? "Zobrazit Figmu" : null}
+              {item.figma ? "Zobrazit ve Figmě" : null}
             </a>
             <ul className={styles.tagsContainer}>
               {Array.isArray(item.tags) &&
