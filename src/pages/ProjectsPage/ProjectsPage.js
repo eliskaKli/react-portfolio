@@ -37,14 +37,6 @@ function ProjectsPage() {
       <div className={styles.blankBar}></div>
       <ProjectsList className={styles.projectsList} />
       <footer className={styles.footer}>
-        {/* <a
-          className={styles.linkPortfolioFigma}
-          href="https://www.figma.com/file/r6PaxMek9So0hMPe3qp2UT/Portfolio-in-React?type=design&node-id=25%3A630&mode=design&t=v5oHb1dFHJClvcTo-1"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Prototyp tohoto portfolia navržený ve Figmě ke shlédnutí zde{" "}
-        </a> */}
         <p>Praha 2023</p>
       </footer>
     </div>

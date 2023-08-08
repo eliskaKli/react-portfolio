@@ -4,7 +4,6 @@ import styles from "./ExternalLogos.module.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function ExternalLogos() {
-  // tady udělat funkce na odkazy
 
   return (
     <div className={styles.logosGroup}>

@@ -7,7 +7,7 @@ function ButtonPortfolio() {
   return (
     <NavLink
       to="projects"
-      // mám tu sice to zapojení active, ale v praxi to nevyužívám
+      // isActive nonused in fact
       className={ ({isActive}) => isActive ? `${styles.portfolioButton} ${styles.portfolioButtonActive}` : `${styles.portfolioButton}` }
     >
       vstoupit do portfolia
