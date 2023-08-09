@@ -13,7 +13,7 @@
   flex-direction: column;
   justify-content: space-between;
   text-align: left;
-  width: 23.4375rem;
+  max-width: 23.4375rem;
   height: 24.4rem;
   gap: 0;
 }
@@ -101,5 +101,9 @@ p {
 
   .projectImg {
     width: 20.875rem;
+  }
+
+  .textContainer {
+    max-width: 20.875rem;
   }
 }
