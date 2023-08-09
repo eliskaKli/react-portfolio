@@ -11,6 +11,10 @@
   border: 0.5px solid #000;
 }
 
+.contactButton a {
+  flex-wrap: nowrap;
+}
+
 .link {
   display: inline-flex;
   justify-content: center;

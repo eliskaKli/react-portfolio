@@ -19,7 +19,7 @@ function Profile() {
         </p>
         <p className={styles.text}>
           Dost bylo osamoceného plavání, chci zjistit, jak se plave v týmu a
-          naučit se nové věci.
+          naučit se novým věcem.
         </p>
         <p className={styles.text}>Ráda si s vámi domluvím schůzku.</p>
       </div>
