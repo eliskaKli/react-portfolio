@@ -20,6 +20,6 @@ font: hsla(0, 0%, 0%, 1)
 button background color: hsla(0, 0%, 100%, 1)
 
 ### Font-families
-*Roboto
+Roboto
 
 
