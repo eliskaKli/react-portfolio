@@ -25,6 +25,7 @@
 
 .textContainer {
   height: 100%;
+  max-width: 23.4375rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

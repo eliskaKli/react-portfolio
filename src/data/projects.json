@@ -3,7 +3,7 @@
     "id": 1,
     "projectName": "Jamming React app",
     "rating": 5,
-    "tags": ["CSS", "React"],                                                                          
+    "tags": ["CSS", "React", "Figma"],                                                                          
     "date": {
         "year": 2023,
         "month": 6
@@ -78,7 +78,7 @@
     "id": 6,
     "projectName": "Tento portfolio web",
     "rating": 5,
-    "tags": ["CSS", "React"],                                                                          
+    "tags": ["CSS", "React", "Figma"],                                                                          
     "date": {
       "year": 2023,
       "month": 8
